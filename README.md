@@ -12,20 +12,20 @@ API REST para cadastrar e gerenciar transacoes financeiras pessoais.
 
 ## Configuracao do MySQL
 
-Confira as credenciais em `src/main/resources/application.properties` e altere se necessario:
+Verifica a conexão com o banco em `application.properties` e muda se for preciso:
 
 ```properties
 spring.datasource.username=root
 spring.datasource.password=
 ```
 
-Com o MySQL em execucao, a aplicacao cria o banco `controle_financeiro` automaticamente, caso o usuario tenha permissao.
+A aplicacao cria o banco `controle_financeiro` automaticamente se o usuario tiver permissao.
 
 ## Executar
 
-No PowerShell, na pasta do projeto:
+Pra executar, bastar rodar o seguinte comando:
 
-```powershell
+```bash
 mvn spring-boot:run
 ```
 
@@ -33,7 +33,7 @@ A API sera iniciada em `http://localhost:8080`.
 
 ## Endpoints
 
-| Metodo | Caminho | Acao |
+| Metodo | Caminho | Ação |
 | --- | --- | --- |
 | POST | `/transacoes` | Cadastra uma transacao |
 | GET | `/transacoes` | Lista todas as transacoes |
@@ -41,7 +41,7 @@ A API sera iniciada em `http://localhost:8080`.
 | PUT | `/transacoes/{id}` | Atualiza uma transacao |
 | DELETE | `/transacoes/{id}` | Exclui uma transacao |
 
-## Exemplo de corpo para POST e PUT
+## Exemplo de corpo
 
 ```json
 {
