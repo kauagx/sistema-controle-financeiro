@@ -1,7 +1,7 @@
-package com.kaue.controlefinanceiro.service;
+package com.kaua.controlefinanceiro.service;
 
-import com.kaue.controlefinanceiro.model.Transacao;
-import com.kaue.controlefinanceiro.repository.TransacaoRepository;
+import com.kaua.controlefinanceiro.model.Transacao;
+import com.kaua.controlefinanceiro.repository.TransacaoRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

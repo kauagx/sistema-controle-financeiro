@@ -12,7 +12,7 @@
         <relativePath/>
     </parent>
 
-    <groupId>com.kaue</groupId>
+    <groupId>com.kaua</groupId>
     <artifactId>controle-financeiro</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>controle-financeiro</name>

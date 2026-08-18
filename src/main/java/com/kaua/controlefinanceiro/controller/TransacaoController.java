@@ -1,7 +1,7 @@
-package com.kaue.controlefinanceiro.controller;
+package com.kaua.controlefinanceiro.controller;
 
-import com.kaue.controlefinanceiro.model.Transacao;
-import com.kaue.controlefinanceiro.service.TransacaoService;
+import com.kaua.controlefinanceiro.model.Transacao;
+import com.kaua.controlefinanceiro.service.TransacaoService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;

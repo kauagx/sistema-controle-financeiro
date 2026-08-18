@@ -1,4 +1,4 @@
-package com.kaue.controlefinanceiro.model;
+package com.kaua.controlefinanceiro.model;
 
 public enum TipoTransacao {
     RECEITA,

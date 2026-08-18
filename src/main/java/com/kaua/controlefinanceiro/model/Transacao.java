@@ -1,4 +1,4 @@
-package com.kaue.controlefinanceiro.model;
+package com.kaua.controlefinanceiro.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;

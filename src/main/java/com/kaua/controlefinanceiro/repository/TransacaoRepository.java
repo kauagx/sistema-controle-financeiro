@@ -1,6 +1,6 @@
-package com.kaue.controlefinanceiro.repository;
+package com.kaua.controlefinanceiro.repository;
 
-import com.kaue.controlefinanceiro.model.Transacao;
+import com.kaua.controlefinanceiro.model.Transacao;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
